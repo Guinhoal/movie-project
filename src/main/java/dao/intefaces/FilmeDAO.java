@@ -1,2 +1,7 @@
-package main.java.dao.intefaces;public interface FilmeDAO {
+package main.java.dao.intefaces;
+
+import main.java.cinema.Filme;
+
+public interface FilmeDAO extends Base<Filme, Integer> {
+
 }
